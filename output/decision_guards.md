@@ -17,17 +17,17 @@ Following the methodology of de Leoni & van der Aalst (2013).
 (current_resource ≤ 0.50 ∧ time_since_start_h > 0.02 ∧ time_since_start_h ≤ 0.02 ∧ time_since_start_h > 0.02) ∨ (current_resource > 0.50 ∧ time_since_start_h ≤ 0.99) ∨ (current_resource > 0.50 ∧ time_since_start_h > 0.99)
 ```
 
-## Gateway: `p_33`
+## Gateway: `p_37`
 - **CV-Accuracy:** 0.574
 - **Observations:** 765
-- **Klassen:** O_Accepted, τ(skip_23)
+- **Klassen:** O_Accepted, τ(skip_25)
 
 **→ `O_Accepted`**
 ```
 (current_resource ≤ 3.50) ∨ (current_resource > 3.50 ∧ time_since_start_h ≤ 484.84 ∧ current_resource ≤ 28.50 ∧ current_resource ≤ 20.50 ∧ current_resource > 18.50) ∨ (current_resource > 3.50 ∧ time_since_start_h ≤ 484.84 ∧ current_resource > 28.50 ∧ time_since_start_h ≤ 302.30) ∨ (current_resource > 3.50 ∧ time_since_start_h ≤ 484.84 ∧ current_resource > 28.50 ∧ time_since_start_h > 302.30) ∨ (current_resource > 3.50 ∧ time_since_start_h > 484.84 ∧ current_resource ≤ 36.50 ∧ current_resource ≤ 22.50 ∧ current_resource ≤ 17.50) ∨ (current_resource > 3.50 ∧ time_since_start_h > 484.84 ∧ current_resource ≤ 36.50 ∧ current_resource ≤ 22.50 ∧ current_resource > 17.50) ∨ (current_resource > 3.50 ∧ time_since_start_h > 484.84 ∧ current_resource > 36.50)
 ```
 
-**→ `τ(skip_23)`**
+**→ `τ(skip_25)`**
 ```
 (current_resource > 3.50 ∧ time_since_start_h ≤ 484.84 ∧ current_resource ≤ 28.50 ∧ current_resource ≤ 20.50 ∧ current_resource ≤ 18.50) ∨ (current_resource > 3.50 ∧ time_since_start_h ≤ 484.84 ∧ current_resource ≤ 28.50 ∧ current_resource > 20.50 ∧ case:LoanGoal ≤ 2.50) ∨ (current_resource > 3.50 ∧ time_since_start_h ≤ 484.84 ∧ current_resource ≤ 28.50 ∧ current_resource > 20.50 ∧ case:LoanGoal > 2.50) ∨ (current_resource > 3.50 ∧ time_since_start_h > 484.84 ∧ current_resource ≤ 36.50 ∧ current_resource > 22.50)
 ```

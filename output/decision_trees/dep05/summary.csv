@@ -1,0 +1,3 @@
+Decision Point,Observations,Branches,Features Used,Tree Depth,Leaves
+intplace_A_Validating,13139,A_Denied | O_Accepted,"case:RequestedAmount, case:LoanGoal, case:ApplicationType, OfferedAmount, MonthlyCost, NumberOfTerms, FirstWithdrawalAmount, CreditScore, Selected",4,11
+intplace_O_Returned,13139,A_Denied | O_Accepted,"case:RequestedAmount, case:LoanGoal, case:ApplicationType, OfferedAmount, MonthlyCost, NumberOfTerms, FirstWithdrawalAmount, CreditScore, Selected",4,11
