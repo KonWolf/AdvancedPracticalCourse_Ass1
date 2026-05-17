@@ -1,4 +1,4 @@
 Algorithmus,Places,Transitions,Silent Trans.,Arcs,Fitness,Precision,Generalization,Simplicity(PM4Py),CFC,SSA
-Inductive Miner,59,89,63,192,0.9999,0.1604,0.9397,0.6271,68,0.1892
-Heuristic Miner,42,78,52,175,0.9501,0.6713,0.9184,0.5217,63,0.2333
+Inductive Miner,59,89,63,192,0.9999,0.1604,0.9397,0.6271,73,0.1892
+Heuristic Miner,42,78,52,175,0.9539,0.6713,0.931,0.5217,74,0.2333
 Fuzzy Miner,28,188,9,376,1.0,0.2144,0.7714,0.403,184,0.1296
